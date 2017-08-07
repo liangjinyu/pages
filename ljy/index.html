@@ -15,6 +15,12 @@
     <link href="./resources/bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <link href="offcanvas.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./resources/jquery/js/jquery.min.js"><\/script>')</script>
+    <script src="./resources/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./resources/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="offcanvas.js"></script>
   </head>
 
   <body>
@@ -34,6 +40,8 @@
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="carousel.html">Carousel</a></li>
+            <li><a id = "carouseInPage">Carousel_In_offcanvas</a></li>
           </ul>
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
@@ -43,7 +51,7 @@
 
       <div class="row row-offcanvas row-offcanvas-right">
 
-        <div class="col-xs-12 col-sm-9">
+        <div class="col-xs-12 col-sm-9" id="centerMain">
           <p class="pull-right visible-xs">
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
@@ -108,16 +116,5 @@
       </footer>
 
     </div><!--/.container-->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="./resources/jquery/js/jquery.min.js"><\/script>')</script>
-    <script src="./resources/bootstrap/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./resources/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="offcanvas.js"></script>
   </body>
 </html>

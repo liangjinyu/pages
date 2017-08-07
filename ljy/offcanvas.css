@@ -59,16 +59,5 @@ footer {
     top: 0;
     width: 50%; /* 6 columns */
   }
-   div#home-jumbotron{
-    background: url(./resources/img/diaoke-background_2.jpg);
-    background-repeat: no-repeat; 
-      color:red;
-  }
-
-  .jumbotron{
-    background: url(F:/REPO/pages/ljy/resources/img/diaoke-background_2.jpg);
-    background-repeat: no-repeat; 
-    color:red;
-  }
 
 
