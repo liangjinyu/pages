@@ -5,7 +5,7 @@ $(document).ready(function () {
 
  $("#carouseInPage").click(function(){
     $("#centerMain").empty();
-   $("#centerMain").load("./vies/carousel/carousel.html");
+   $("#centerMain").load("./views/carousel/carousel.html");
 
 /*    var html = "<p>hello</p> <img  src = \"./resources/img/coder/1.jpg\"/>";
     $("#centerMain").html(html);*/
